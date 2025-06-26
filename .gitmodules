@@ -1,3 +1,0 @@
-[submodule "docker-epever-homeassistant"]
-	path = docker-epever-homeassistant
-	url = git@github.com:pietervanheijningen/docker-epever-homeassistant.git
