@@ -2,7 +2,7 @@
 https://github.com/pietervanheijningen/home-assistant-addons
 
 ## Changes from original
-- Update to php8
+- Update to php8.
 - Add username&pass to MQTT connection
 - Better units of measurement for better HA integration
 - Different /dev/tty* 
