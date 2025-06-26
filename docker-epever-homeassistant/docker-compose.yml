@@ -1,0 +1,20 @@
+services:
+  epever-mqtt:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: epever-mqtt
+
+    privileged: true
+    restart: always
+
+    volumes:
+      # Config.yml MUST be in the same directory as `server.js`
+      - ./config:/opt/epever/config
+      #- ./src/:/opt/epever
+
+    devices:
+      # Serial Port Mapping...
+      # (Assumes using the Exar Corp Modbus USB cable that comes with the MPPT controller)
+      - /dev/ttyACM0:/dev/ttyACM0

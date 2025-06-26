@@ -1,0 +1,7 @@
+{
+    "require": {
+        "php-mqtt/client": "*",
+        "hassankhan/config": "*",
+        "symfony/yaml": "*"
+    }
+}
